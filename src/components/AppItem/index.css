@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  height: 180px;
+  width: 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.app-logo {
+  height: 70px;
+  width: 70px;
+}
+.app-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .app-container {
+    height: 100px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .app-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .app-heading {
+    font-size: 12px;
+  }
+}
